@@ -1,0 +1,330 @@
+ *{
+    border:1px solid black;
+  } */
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+  html{
+      font-family:"Architects Daughter";
+      background:url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap')
+  }
+  .main{
+    width:100%;
+    background:#506a6e;
+    border-radius:3rem;
+  }
+  h1{
+    margin-left:1%;
+    margin-top:3%;
+    margin-bottom:-0.5%;
+    font-family: "Comfortaa";
+    background:url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+    font-size:4rem;
+    color:rgb(143, 172, 169);
+    
+  }
+  .navbar{
+    margin-left:5%;
+    width:30%;
+    font-size:1.3rem;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    
+  }
+  .Home{
+    text-decoration:none;
+    color:black;
+    border:1px solid black;
+    padding:.7rem;
+    background:rgb(16, 65, 68);
+    border-radius:.2rem;
+    color:grey;
+  }
+  .Home:hover{
+    text-decoration:none;
+    color:black;
+    border:1px solid black;
+    padding:.7rem;
+    background:rgb(56, 205, 212);
+    border-radius:1rem;
+    color:rgb(124, 108, 108);
+  }
+  .About{
+    text-decoration:none;
+    color:black;
+    border:1px solid black;
+    padding:.7rem;
+    background:rgb(16, 65, 68);
+    border-radius:.2rem;
+    color:grey;
+  }
+  .About:hover{
+    text-decoration:none;
+    color:black;
+    border:1px solid black;
+    padding:.7rem;
+    background:rgb(56, 205, 212);
+    border-radius:1rem;
+    color:rgb(124, 108, 108);}
+  .Projects{
+    text-decoration:none;
+    color:black;
+    border:1px solid black;
+    padding:.7rem;
+    background:rgb(16, 65, 68);
+    border-radius:.2rem;
+    color:grey;
+  }
+
+  .Projects:hover{
+    text-decoration:none;
+    color:black;
+    border:1px solid black;
+    padding:.7rem;
+    background:rgb(56, 205, 212);
+    border-radius:1rem;
+    color:rgb(124, 108, 108);
+}
+
+  .Contact{
+    text-decoration:none;
+    color:black;
+    border:1px solid black;
+    padding:.7rem;
+    background:rgb(16, 65, 68);
+    border-radius:.2rem;
+    color:grey;
+  }
+  .Contact:hover{
+    text-decoration:none;
+    color:black;
+    border:1px solid black;
+    padding:.7rem;
+    background:rgb(56, 205, 212);
+    border-radius:1rem;
+    color:rgb(124, 108, 108);
+}
+  
+  .container1 img{
+    border-radius:.5rem;
+    margin-left:9%;
+    margin-bottom:-8%;
+    margin-top:3%;
+    width:19rem;
+    height:30%;
+    
+  }
+  
+   h2{
+    margin-left:50%;
+    margin-top:-1%;
+    width:30%;
+    font-family: "Comfortaa";
+    background:url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+    font-size:3rem;
+    
+  }
+  
+  .container1 button{
+    margin-left:50%;
+    font-size:2rem;
+    font-family:"Architects Daughter";
+    background:url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+    background:rgb(16, 65, 68);
+    border-radius:1rem;
+    color:rgb(190, 180, 180);
+    
+  }
+  .container1 button:hover{
+    margin-left:50%;
+    font-size:4rem;
+    font-family:"Architects Daughter";
+    background:url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+    background:#688a8f;
+    border-radius:6rem;
+    color:rgb(190, 180, 180);
+  }
+  .container1 p{
+   
+    margin-left:50%;
+    margin-right:10%;
+    font-size:2rem;
+     width:30%;
+  }
+  
+  .container2{
+    width:100%;
+  
+    display:flex;
+    flex-direction:column;
+    
+  }
+  .row1{
+      display:flex;
+      justify-content: space-evenly;
+      flex-wrap:wrap;
+  }
+  .row2{
+      margin-top: 2rem;
+      display:flex;
+      justify-content: space-evenly;
+      flex-wrap:wrap;
+  }    
+  
+    .one{
+    border-radius:10px;
+    width:15rem;
+    height:15rem;
+  }
+    .two{
+    border-radius:10px;
+    width:15rem;
+    height:15rem;
+  }
+  .three{
+    border-radius:10px;
+    width:15rem;
+    height:15rem;
+  }
+  .four{
+    border-radius:10px;
+    width:15rem;
+    height:15rem;
+  }
+  .five{
+    border-radius:10px;
+    width:15rem;
+    height:15rem;
+  }
+  .six{
+    border-radius:10px;
+    width:15rem;
+    height:15rem;
+  }
+  .seven{
+    border-radius:10px;
+    width:15rem;
+    height:15rem;
+  }
+  .eight{
+    border-radius:10px;
+    width:15rem;
+    height:15rem;
+  }
+  .container2 p{
+    display: flex;
+    margin-bottom: 10%;
+  }
+  
+  .footer{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+   
+  }
+  
+  .footer button{
+    font-size:1.5rem;
+    font-family: "Comfortaa";
+    background:url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+    border-radius:20%;
+    background-color: teal;
+    color:rgb(190, 180, 180);
+    margin-bottom: 7%;
+  }
+   .footer button:hover{
+        font-size:1.5rem;
+        font-family: "Comfortaa";
+        background:url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+        border-radius:20%;
+        background-color: white;
+        color:rgb(190, 180, 180);
+        margin-bottom: 7%;
+  }
+  .footer p{
+     font-size:3rem;
+     text-align:center;
+     width:40%;
+    }
+    @media(max-width:800px){
+      .navbar{
+        width: 50%;
+      }
+      h2{
+        width:80%;
+        margin-top: 9%;
+        margin-left:50%;
+      }
+      .container1 p{
+        width:40%;
+        margin-left: 50%;
+      }
+      .container1 button{
+        margin-left: 60%;
+      }
+      .container2{
+        width:100%;}
+        
+      .container1 img{
+          margin-bottom:-50%;
+        }
+      
+     
+
+    }
+    @media(max-width:500px){
+      h1{
+        text-align:center;
+      }
+      .navbar{
+        margin-left:25%;
+        flex-direction: column;
+       justify-content: center;
+        }
+        .container1 img{
+          margin-left:20%;
+        }
+        h2{
+          width:80%;
+          margin-top: 9%;
+          margin-left:10%;
+        }
+        .container1 p{
+          width:60%;
+          margin-left: 25%;
+        }
+        .container1 button{
+          margin-left: 30%;
+        }
+        .container2{
+          width:100%;
+        
+          display:flex;
+          flex-direction:row;
+          justify-content: space-evenly;
+          
+        }
+        .row1{
+          margin-top: 2rem;
+          display:flex;
+          justify-content: space-evenly;
+          flex-wrap:wrap;
+        }
+     
+        .row2{
+            margin-top: 2rem;
+            display:flex;
+            justify-content: space-evenly;
+            flex-wrap:wrap;
+        } 
+        footer button{
+            margin-bottom: 7%;
+        }   
+        footer p{
+          padding: 10%;
+          display: flex;
+          justify-content:flex-start;
+      }   
+    }
